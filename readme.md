@@ -34,7 +34,7 @@ To test the program I created a tree and I added several random key value nodes.
 
 Unfortunately it was not possible to appreciate the **log(N)** behavior for the balance tree search because I got some problems fidding the tree. In fact already with a number N=90 of nodes I noticed that my program takes a lot of time balancing the tree and getting the timing, most likely for some problems due to the recursive balance function. But at least I noticed that for all researchs based on the find() function :
 
-$$ t_{balance}< t_{map} < t_{notbalance}$$
+\begin{equation} t_{balance}< t_{map} < t_{notbalance}  \end{equation}
 
 **Class tree_node**
 
