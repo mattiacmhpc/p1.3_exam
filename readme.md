@@ -40,7 +40,7 @@ Unfortunately it was not possible to appreciate the **log(N)** behavior for the 
 
 Public variables:
 
-- an object of type ```std::pair`` (named `data`), it stores the object `key_type` and `value_type`
+- an object of type `std::pair` (named `data`), it stores the object `key_type` and `value_type`
 - Two `std::unique_ptr` to store addresses of two childs `right` and `left`
 - a raw pointer to the parent node
 
